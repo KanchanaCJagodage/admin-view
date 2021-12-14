@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.backgr{
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+
+}
+.hd{
+    text-align: left;
+    font-size: inherit;
+    font-weight: bolder;
+}
+
+table {
+    background-color: transparent;
+    border: 5px solid black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    
+  }
+/* pre{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: inherit;
+}
+b{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+} */
+  th,td {
+      text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color:transparent;
+  }
+  
+  .edit{
+      background-color:#106494;
+      width:auto;
+      font-family: 'Quicksand', sans-serif;
+      border-radius: 5px;
+      border:2px solid;
+      border-color: #106494;
+      color:white;
+      font-weight: 900;
+      padding-left: 10%;
+      padding-right:10% ;
+      
+  }
+
+  .view{
+    background-color:#549667;
+    width:auto;
+    border-radius: 5px;
+    border:2px solid;
+    border-color: #549667;
+    color:white;
+    font-weight:900;
+    padding-left: 10%;
+    padding-right:10% ;
+    font-family: 'Quicksand', sans-serif;
+    
+
+  }
+
+  .delete{
+    background-color:#9e3a4e;
+    width:auto;
+    border-radius: 5px;
+    border:2px solid;
+    border-color: #9e3a4e;
+    color:white;
+    font-weight: 900;
+    padding-left: 10%;
+    padding-right:10% ;
+    font-family: 'Quicksand', sans-serif;
+
+  }
+.yes{
+    background-color:#9e3a4e;
+    width:auto;
+    border-radius: 5px;
+    border:2px solid;
+    border-color: #9e3a4e;
+    color:white;
+    font-weight: 900;
+    padding-left: 10%;
+    padding-right:10% ;
+    font-family: 'Quicksand', sans-serif;
+}
+.no{
+    background-color:#549667;
+    width:auto;
+    border-radius: 5px;
+    border:2px solid;
+    border-color: #549667;
+    color:white;
+    font-weight:900;
+    padding-left: 10%;
+    padding-right:10% ;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+}
+  tr:hover{
+      background-color:#b1b2b3;
+      color:black;
+  }
